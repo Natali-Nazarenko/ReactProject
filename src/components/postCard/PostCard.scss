@@ -1,13 +1,16 @@
 .post {
-    display: none;
+    // display: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     width: 200px;
     height: 400px;
     padding: 20px;
     border: 1px solid #8b94a1;
     border-radius: 5px;
-    &.active {
+    /* &.active {
         display: flex;
         flex-direction: column;
         justify-content: center;
-    }
+    } */
 }

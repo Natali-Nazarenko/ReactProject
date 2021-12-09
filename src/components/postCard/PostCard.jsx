@@ -8,6 +8,7 @@ export const PostCard = (props) => {
         eventElement.classList.remove('active');
         eventElement.innerHTML = '';
     }
+    
     return (
         <div className="post">
             <h1>{props.title}</h1>

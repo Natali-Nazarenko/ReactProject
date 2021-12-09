@@ -3,4 +3,12 @@
 }
 body {
   background-image: url('./img/image.jpg');
+  .blockPosts {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+  }
+  .longButton {
+    width: 150px;
+  }
 }
