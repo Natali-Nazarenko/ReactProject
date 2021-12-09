@@ -1,0 +1,5 @@
+const api_url = 'https://api.themoviedb.org/3/'; 
+const api_key =  '04c35731a5ee918f014970082a0088b1';
+
+fetch(`https://api.tvmaze.com/search/shows?q=war`)
+
